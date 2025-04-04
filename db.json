@@ -1,0 +1,32 @@
+{
+  "reviews": [
+    {
+      "id": "1",
+      "author": "Kate",
+      "text": "meh",
+      "stars": 2,
+      "movieId": 3
+    },
+    {
+      "author": "Saruh",
+      "movieId": 3,
+      "text": "Average quality.",
+      "stars": 3,
+      "id": "3"
+    },
+    {
+      "id": "95a2",
+      "author": "Tom",
+      "movieId": 3,
+      "text": "okay",
+      "stars": 2
+    },
+    {
+      "id": "358d",
+      "author": "Liam",
+      "movieId": 3,
+      "text": "i liked her",
+      "stars": 4
+    }
+  ]
+}
