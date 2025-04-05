@@ -15,18 +15,25 @@
       "id": "3"
     },
     {
-      "id": "95a2",
-      "author": "Tom",
+      "author": "Lynn",
       "movieId": 3,
-      "text": "okay",
+      "text": "woo",
+      "stars": 4,
+      "id": "3659"
+    },
+    {
+      "id": "c6d9",
+      "author": "Lynn",
+      "movieId": 3,
+      "text": "hi\n",
       "stars": 2
     },
     {
-      "id": "358d",
-      "author": "Liam",
+      "id": "276b",
+      "author": "Lynn",
       "movieId": 3,
-      "text": "i liked her",
-      "stars": 4
+      "text": "fantastic\n",
+      "stars": 5
     }
   ]
 }

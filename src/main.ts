@@ -2,6 +2,11 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import { deleteReview, putReview, postReview, fetchAllReviews } from "./api"
 import renderReviewForm from "./renderReviewForm"
 
+//the imports above are for the API calls and rendering the review form
+//rendering is done in a separate function to keep the main logic clean
+// typescript defines the types of the data we are working with
+//allows us to store data properly and avoid errors
+
 export type Review = {
   id: number
   author: string
@@ -22,6 +27,7 @@ const reviewsContainer = document.getElementById("reviews-container") as HTMLDiv
 export const reviewStarsSelect = document.getElementById("review-stars-select") as HTMLSelectElement
 export const reviewTextarea = document.getElementById("review-textarea") as HTMLTextAreaElement
 
+//exports are used to make the variables available in other files
 document.getElementById("save-button")!.addEventListener("click", onSaveReviewClick)
 //render a list of reviews
 function renderReviewList() {
